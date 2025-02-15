@@ -1,1 +1,2 @@
-web: gunicorn fixit.wsgi --log-file -
+web: uvicorn fixit.asgi:application --host 0.0.0.0 --port $PORT
+
