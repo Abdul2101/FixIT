@@ -26,7 +26,12 @@ SECRET_KEY = 'django-insecure-)wq79i=4p#ec)5sy$=(60ymaz$3a=q(xj@v*2r175)!4g9*+ys
 DEBUG = True
 
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ec4e-147-45-70-236.ngrok-free.app',
+    'localhost',
+    '127.0.0.1'
+]
+
 
 
 AUTH_USER_MODEL = 'general.User'
