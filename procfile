@@ -1,2 +1,1 @@
-web: uvicorn fixit.asgi:application --host 0.0.0.0 --port $PORT
-
+gunicorn fixit.wsgi --bind 0.0.0.0:$PORT
