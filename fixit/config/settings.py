@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-)wq79i=4p#ec)5sy$=(60ymaz$3a=q(xj@v*2r175)!4g9*+ys
 DEBUG = True
 
 
-ALLOWED_HOSTS = ['*']
+ALLOWED_HOSTS = ['https://fixit-production-fe17.up.railway.app/']
 
 
 
