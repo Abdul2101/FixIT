@@ -23,7 +23,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-)wq79i=4p#ec)5sy$=(60ymaz$3a=q(xj@v*2r175)!4g9*+ys'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['fixit-production-fe17.up.railway.app']
 
@@ -110,8 +110,8 @@ USE_I18N = True
 USE_TZ = True
 
 # Static files
-STATIC_URL = '/staticfiles/'
-STATIC_ROOT = BASE_DIR / 'staticfiles'
+STATIC_URL = '/static/'  # Путь к статике для пользователя
+STATIC_ROOT = BASE_DIR / 'staticfiles'  # Папка, в которую будут собраны все статические файлы
 
 # Default primary key field type
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
